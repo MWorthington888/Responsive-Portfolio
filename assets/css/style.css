@@ -14,7 +14,7 @@ body {
   
   .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     clear: both;
   }
@@ -65,7 +65,7 @@ body {
   
   #logo {
     float: left;
-    width: 250px;
+    width: 450px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -74,7 +74,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #7e79ca;
   }
   
   nav {
@@ -117,7 +117,7 @@ body {
     border-bottom: 2px solid #eeeeee;
   }
   
-  /* main */
+  /* main page */
   
   #main-container {
     padding-top: 130px;
@@ -129,6 +129,7 @@ body {
     width: 100%;
     max-width: 960px;
     padding: 30px;
+    padding-top: 10px;
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
@@ -150,7 +151,11 @@ body {
   
   .work img {
     width: 100%;
-    border: 0 none;
+    height: 205px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    /* border: 0 none; */
     opacity: 0.8;
   }
   
@@ -232,7 +237,6 @@ body {
       margin-top: 20px;
    }
 }
-/* I don't think the media screen has any effect*/
 @media screen and (max-width: 640px) {
   .main-section {
     width: 100%;
